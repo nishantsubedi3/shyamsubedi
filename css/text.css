@@ -1,0 +1,26 @@
+/* all fonts used in the website are here */
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.comicsansms {
+    font-family: 'Comic Sans MS'
+}
+
+.sofiasans {
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.robotocondensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.josefinsans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.teko {
+    font-family: 'Teko', sans-serif;
+}
