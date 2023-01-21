@@ -1,4 +1,4 @@
-var object = document.getElementById("nav-menu");
+var object = document.getElementById("navmenu");
 var button = document.getElementById("unhide1");
 
 button.addEventListener("click", function () {
