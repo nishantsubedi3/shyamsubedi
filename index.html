@@ -12,19 +12,28 @@
 </head>
 
 <body>
-    <!-- ERROR MESSAGE FOR DEVICES SMALLER THAN MD -->
-    <div class="md:hidden bg-gray-900">
-        <div class="md:hidden flex items-center justify-center h-screen text-white">
-            <p class="text-center text-2xl sofiasans">SORRY THIS DEVICE IS NOT SUPPORTED :(</p>
+    <!-- START OF NAVIGATION MENU FOR SM -->
+    <nav class="bg-gray-900 text-white py-4 md:hidden">
+        <div class="container mx-auto flex items-center justify-between">
+            <a href="http://shyamsubedi.com.np" class="comicsansms text-[30px] ml-2">SHYAM SUBEDI</a>
+            <button class="text-6xl m-2 comicsansms" onclick="nav_menu()" id="unhide1">&equiv;</button>
         </div>
-        <footer class="bg-gray-900 text-white p-4 flex justify-center items-center comicsansms font-bold text-lg">
-            <p>Copyright © 2023 Shyam Subedi</p>
-        </footer>
-    </div>
-    <!-- OPTIMAL WEBSITE FOR MD -->
-    <div class="hidden md:block">
+        <div style="display: none;" id="nav-menu">
+            <div class="flex sofiasans">
+                <div class="w-1/2"></div>
+                <div class="flex flex-col w-1/2 text-right">
+                    <a href="http://shyamsubedi.com.np" class="text-lg p-3 hover:bg-black">HOME</a>
+                    <a href="./coming-soon.html" class="text-lg p-3 hover:bg-black">LATEST
+                        NEWS</a>
+                    <a href="./about-us.html" class="text-lg p-3 hover:bg-black">ABOUT</a>
+                    <a href="./contact-us.html" class="text-lg p-3 hover:bg-black">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVIGATION MENU FOR SM -->
         <!-- START OF TOP NAVIGATION MENU -->
-        <nav class="bg-gray-900 text-white py-4">
+        <nav class="bg-gray-900 text-white py-4 hidden md:block">
             <div class="container mx-auto flex items-center justify-between">
                 <a href="http://shyamsubedi.com.np" class="comicsansms text-[30px]">SHYAM SUBEDI</a>
                 <div class="flex items-center sofiasans">
@@ -40,7 +49,7 @@
         <!-- START OF THE BODY OF THE PAGE -->
         <div class="bg-gray-800 p-4" id="MAIN PAGE">
             <div class="robotocondensed text-5xl text-white flex justify-center mb-3">
-                <p>WELCOME TO MY WEBSITE!</p>
+                <p class="text-center">WELCOME TO MY WEBSITE!</p>
             </div>
             <div class="text-white">
                 <div class="text-xl my-4 josefinsans">
@@ -106,7 +115,6 @@
             <p>Copyright © 2023 Shyam Subedi</p>
         </footer>
         <!-- END OF THE FOOTER OF THE PAGE -->
-    </div>
 </body>
-
+<script src="./js/menu-mobile.js"></script>
 </html>

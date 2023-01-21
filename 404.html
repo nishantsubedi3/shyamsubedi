@@ -13,8 +13,28 @@
 </head>
 
 <body>
+    <!-- START OF NAVIGATION MENU FOR SM -->
+    <nav class="bg-gray-900 text-white py-4 md:hidden">
+        <span class="container mx-auto flex items-center justify-between">
+            <a href="http://shyamsubedi.com.np" class="comicsansms text-[30px] ml-2">SHYAM SUBEDI</a>
+            <button class="text-6xl m-2 comicsansms" onclick="nav_menu()" id="unhide1">&equiv;</button>
+        </span>
+        <span style="display: none;" id="nav-menu">
+            <span class="flex sofiasans">
+                <span class="w-1/2"></span>
+                <span class="flex flex-col w-1/2 text-right">
+                    <a href="http://shyamsubedi.com.np" class="text-lg p-3 hover:bg-black">HOME</a>
+                    <a href="./coming-soon.html" class="text-lg p-3 hover:bg-black">LATEST
+                        NEWS</a>
+                    <a href="./about-us.html" class="text-lg p-3 hover:bg-black">ABOUT</a>
+                    <a href="./contact-us.html" class="text-lg p-3 hover:bg-black">CONTACT US</a>
+                </span>
+            </span>
+        </span>
+    </nav>
+    <!-- END OF NAVIGATION MENU FOR SM -->
     <!-- START OF TOP NAVIGATION MENU -->
-    <nav class="bg-gray-900 text-white py-4">
+    <nav class="bg-gray-900 text-white py-4 hidden md:block">
         <span class="container mx-auto flex items-center justify-between">
             <a href="http://shyamsubedi.com.np" class="comicsansms text-[30px]">SHYAM SUBEDI</a>
             <span class="flex items-center sofiasans">
@@ -45,5 +65,5 @@
     </footer>
     <!-- END OF THE FOOTER OF THE PAGE -->
 </body>
-
+<script src="./js/menu-mobile.js"></script>
 </html>
