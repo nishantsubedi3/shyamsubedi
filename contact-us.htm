@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/logo.png">
+    <link rel="stylesheet" href="./src/css/text.css">
+    <link rel="stylesheet" href="./src/css/additional.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <title>HOME</title>
+</head>
+
+<body>
+    <!-- MENU ONLY FOR MD -->
+    <div id="navmenu" class="hidden md:block bg-purple-950 text-white">
+        <div class="w-[100%] p-4 flex justify-between">
+            <div id="1" class="unselectable p-4">
+                <span class="josefinsans"><span class="font-bold text-3xl text-white">Shyam</span><span
+                        class="font-bold text-yellow-400 text-3xl">Subedi</span></span>
+            </div>
+            <div id="2" class="ysabeau inline-flex">
+                <a href="./index.htm" class="p-4">HOME</a>
+                <a href="./about-us.htm" class="p-4">ABOUT US</a>
+                <a href="./contact-us.htm" class="p-4">CONTACT US</a>
+                <a href="./cart.htm" class="p-4"><img src="./src/img/cart-shopping.png" alt="Add to cart" width="20px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MENU ONLY FOR MD -->
+    <!-- START OF MD BODY -->
+    <div id="body" class="flex justify-center h-screen items-center bg-gradient-to-r from-fuchsia-800 via-purple-900 to-pink-800">
+        <div class="p-4 font-bold">
+            <div class="text-white p-4 rounded-xl">
+                <h1 class="text-7xl titillium text-white">CONTACT FORM</h1><br>
+                <p class="josefinsans text-lg">Fields with * are mandatory fields.</p><br>
+                <form action="./sorry.htm" class="w-1/2 mx-auto">
+                    <label for="name">NAME: *</label><br>
+                    <input type="text" name="name" id="name" class="outline outline-offset-2 outline-2 text-black" required><br><br>
+                    <label for="email">EMAIL: *</label><br>
+                    <input type="e-mail" name="e-mail" id="email" class="outline outline-offset-2 outline-2 text-black"
+                        required><br><br>
+                    <label for="phnumber">PHONE NUMBER: *</label><br>
+                    <input type="number" name="phnumber" id="phnumber" class="outline outline-offset-2 outline-2 text-black"
+                        required><br><br>
+                    <label for="orderid">ORDER ID: *</label><br>
+                    <input type="password" name="orderid" id="orderid" class="outline outline-offset-2 outline-2 text-black"
+                        required><br><br>
+                    <label for="description">Please describe us your problem: *</label>
+                    <textarea name="description" id="description"
+                        class="outline outline-offset-2 outline-2 resize-none overflow-hidden text-black" required cols="30"
+                        row="10"></textarea><br><br>
+                    <button class="bg-yellow-600 py-2 px-5 rounded-3xl mr-5">SUBMIT</button>
+                    <input type="reset" value="RESET" class="bg-yellow-600 py-2 px-5 rounded-3xl">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MD BODY  -->
+    <div id="footer" class="bg-gray-800 p-5 text-white josefinsans">
+        <p class="text-center text-xl">COPYRIGHT &copy; 2023 Shyam Subedi.</p><br>
+        <p class="text-center">BACKGROUND IMAGES FROM <a href="https://unsplash.com/" target="_blank">UNSPLASH</a>.</p>
+    </div>
+</body>
+</html>
