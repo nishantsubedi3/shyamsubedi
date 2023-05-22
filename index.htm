@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/logo.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/additional.css">
+    <link rel="stylesheet" href="./src/css/text.css">
+    <link rel="stylesheet" href="./src/css/fa.css">
+    
+    <!-- MOBILE MENU JS  -->
+    <script>
+        function mobile() {
+            var div = document.getElementById("mobile-menu");
+            if (div.style.display === "none") {
+                div.style.display = "flex";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+    <!-- END OF MOBILE MENU JS  -->
+
+    <title>HOME - SHYAM SUBEDI</title>
+</head>
+
+<body>
+
+    <!-- NAV MENU MD -->
+    <div id="nav-menu-md" class="hidden md:block text-white">
+        <nav class="flex justify-between bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 p-8">
+            <div id="logo" class="unselectable text-3xl oswald">
+                SHYAM<span class="text-yellow-300">SUBEDI</span>
+            </div>
+            <div id="LINKS" class="nunito text-lg">
+                <a href="./index.htm" class="px-4 text-red-600 hover:text-white">HOME</a>
+                <a href="./store.htm" class="px-4 hover:text-red-600">STORE</a>
+                <a href="./about-us.htm" class="px-4 hover:text-red-600">ABOUT US</a>
+                <a href="./contact-us.htm" class="px-4 hover:text-red-600">CONTACT US</a>
+            </div>
+        </nav>
+    </div>
+    <!-- END OF NAV MENU MD -->
+
+    <!-- NAV MENU FOR MOBILE -->
+    <div id="nav-menu-mobile" class="md:hidden">
+        <nav class="flex justify-between bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 p-8 text-white">
+            <div id="logo" class="unselectable text-3xl oswald">
+                SHYAM<span class="text-yellow-300">SUBEDI</span>
+            </div>
+            <button onclick="mobile()"> <i class="fa fa-bars"></i></button>
+        </nav>
+        <div class="flex justify-end">
+            <div id="mobile-menu" class="hidden flex-col nunito text-lg bg-white fixed text-right rounded-l-xl -mt-8">
+                <a href="./index.htm" class="py-2 pl-2 pr-4 text-red-600">HOME</a>
+                <a href="./store.htm" class="py-2 pl-2 pr-4 hover:text-red-600">STORE</a>
+                <a href="./about-us.htm" class="py-2 pl-2 pr-4 hover:text-red-600">ABOUT US</a>
+                <a href="./contact-us.htm" class="py-2 pl-2 pr-4 hover:text-red-600">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+    <!-- END OF NAV MENU FOR MOBILE -->
+
+    <!-- BODY FOR MD -->
+    <div id="mdbody" class="hidden md:block text-white">
+        <div class="bg-gray-800 p-4">
+            <h1 class="text-4xl font-bold text-center nunito">
+                Welcome to Shyam Subedi's e-Gift Card Emporium!
+            </h1><br>
+            <p class="roboto text-lg">
+                Unlock a world of gifting possibilities with the most affordable e-gift cards in Nepal, exclusively at ShyamSubedi.com.np. Whether you're celebrating a special occasion or searching for the perfect surprise for a loved one, our e-commerce website is your go-to destination for convenient, budget-friendly gifting.
+            </p><br><br>
+            <h2 class="text-3xl font-bold nunito text-center">
+                Why choose Shyam Subedi's e-Gift Card Emporium?
+            </h2><br>
+            <ul class="text-lg roboto">
+                <li>
+                    1. Unbeatable Prices: We take pride in offering the most competitive prices for e-gift cards in Nepal. Our goal is to make gifting accessible and affordable for everyone, without compromising on quality or variety.
+                </li><br>
+                <li>
+                    2. Extensive Collection: Explore our vast collection of e-gift cards, carefully curated to cater to various interests and occasions. From popular retail brands, dining experiences, online subscriptions, and entertainment platforms, we have something for everyone.
+                </li><br>
+                <li>
+                    3. Instant Delivery: Say goodbye to last-minute shopping stress! Our e-gift cards are delivered instantly via email, ensuring that your recipient receives their surprise without any delay. It's the perfect solution for those who love convenience and immediate gratification.
+                </li><br>
+                <li>
+                    4. Personalization Options: Make your e-gift card extra special by customizing it with a personal message or a heartfelt note. Add a personal touch to your gift and let your loved ones know how much they mean to you.
+                </li><br>
+                <li>
+                    5. Secure and Reliable: At Shyam Subedi's e-Gift Card Emporium, we prioritize the security of your transactions and personal information. Our website is equipped with the latest encryption technology to ensure a safe and seamless shopping experience.
+                </li><br>
+                <li>
+                    6. Start gifting with ease and affordability today! Visit ShyamSubedi.com.np and discover a world of e-gift cards at unbeatable prices. Spread joy and celebrate every occasion, all within your budget. Trust Shyam Subedi's e-Gift Card Emporium for all your gifting needs.
+                </li>
+            </ul><br><br>
+            <p class="font-bold">* Please note that all prices and availability are subject to change. Check our website's shop section for the most up-to-date information.</p>
+    </div>
+    </div>
+    <!-- END OF BODY FOR MD -->
+
+    <!-- START OF BODY FOR MOBILE -->
+    <div id="mobilebody" class="md:hidden text-white">
+        <div class="bg-gray-800 p-4">
+            <h1 class="text-2xl text-center nunito">
+                Welcome to Shyam Subedi's e-Gift Card Emporium!
+            </h1><br>
+            <p class="roboto text-lg">
+                Unlock a world of gifting possibilities with the most affordable e-gift cards in Nepal, exclusively at ShyamSubedi.com.np. Whether you're celebrating a special occasion or searching for the perfect surprise for a loved one, our e-commerce website is your go-to destination for convenient, budget-friendly gifting.
+            </p><br><br>
+            <h2 class="text-xl text-center">
+                Why choose Shyam Subedi's e-Gift Card Emporium?
+            </h2><br>
+            <ul>
+                <li>
+                    1. Unbeatable Prices: We take pride in offering the most competitive prices for e-gift cards in Nepal. Our goal is to make gifting accessible and affordable for everyone, without compromising on quality or variety.
+                </li><br>
+                <li>
+                    2. Extensive Collection: Explore our vast collection of e-gift cards, carefully curated to cater to various interests and occasions. From popular retail brands, dining experiences, online subscriptions, and entertainment platforms, we have something for everyone.
+                </li><br>
+                <li>
+                    3. Instant Delivery: Say goodbye to last-minute shopping stress! Our e-gift cards are delivered instantly via email, ensuring that your recipient receives their surprise without any delay. It's the perfect solution for those who love convenience and immediate gratification.
+                </li><br>
+                <li>
+                    4. Personalization Options: Make your e-gift card extra special by customizing it with a personal message or a heartfelt note. Add a personal touch to your gift and let your loved ones know how much they mean to you.
+                </li><br>
+                <li>
+                    5. Secure and Reliable: At Shyam Subedi's e-Gift Card Emporium, we prioritize the security of your transactions and personal information. Our website is equipped with the latest encryption technology to ensure a safe and seamless shopping experience.
+                </li><br>
+                <li>
+                    6. Start gifting with ease and affordability today! Visit ShyamSubedi.com.np and discover a world of e-gift cards at unbeatable prices. Spread joy and celebrate every occasion, all within your budget. Trust Shyam Subedi's e-Gift Card Emporium for all your gifting needs.
+                </li>
+            </ul><br><br>
+            <p class="font-bold">* Please note that all prices and availability are subject to change. Check our website's shop section for the most up-to-date information.</p>
+        </div>
+    </div>
+    <!-- END OF BODY FOR MOBILE -->
+
+    <!-- FOOTER -->
+    <div id="footer" class="text-white bg-gray-950 oswald text-lg text-center p-4">
+        COPYRIGHT &copy; 2023 SHYAM SUBEDI e-GIFT CARD EMPORIUM.
+    </div>
+    <!-- END OF FOOTER  -->
+</body>
+</html>
